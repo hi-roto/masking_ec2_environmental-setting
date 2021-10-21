@@ -27,3 +27,5 @@ sudo groupadd docker
 docker_username=$(whoami)
 
 sudo usermod -aG docker $docker_username
+
+groups $docker_username
